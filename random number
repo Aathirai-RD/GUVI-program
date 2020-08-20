@@ -1,0 +1,10 @@
+import java.util.Random;
+public class GenerateRandom {
+    public static void main( String args[] ) {
+      Random random_num = new Random(); 
+      int value = 69;
+      int random = random_num.nextInt(value); 
+     
+      
+      System.out.println(random);
+    }}
